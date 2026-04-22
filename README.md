@@ -7,13 +7,13 @@ A PowerShell log collector for Intune / MDM endpoint troubleshooting. Produces a
 Run as **Administrator** on the target device:
 
 ```
-irm https://raw.githubusercontent.com/<user>/<repo>/main/Collect-IntuneLogs.ps1 | iex
+irm https://github.com/1nFlight/ODC-Reduced/blob/main/Collect-IntuneLogs.ps1 | iex
 ```
 
 With parameters:
 
 ```
-& ([scriptblock]::Create((irm https://raw.githubusercontent.com/<user>/<repo>/main/Collect-IntuneLogs.ps1))) -Deep -DaysBack 14
+& ([scriptblock]::Create((irm https://raw.githubusercontent.com/1nFlight/<repo>/main/Collect-IntuneLogs.ps1))) -Deep -DaysBack 14
 ```
 
 Or download and run locally:
